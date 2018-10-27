@@ -9,7 +9,7 @@ module.exports = function(app) {
     // GET Request
     // Responds with all the currently booked tables
     app.get('/api/product', function(req, res) {
-      db.Table.findAll({}).then(function(rows) {
+      db.Product.findAll({}).then(function(rows) {
         res.json(rows)
       }).catch(function(error) {
         res.json({ error: error });
