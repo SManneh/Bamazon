@@ -35,7 +35,7 @@ db.sequelize.sync().then(function() {
     stock_quantity:10
 
   }).then(function(response){
-    console.log(response);
+    
   });
 
 
@@ -46,7 +46,7 @@ db.sequelize.sync().then(function() {
     stock_quantity:10
 
   }).then(function(response){
-    console.log(response);
+    
   });
 
   db.Product.create({
@@ -56,7 +56,7 @@ db.sequelize.sync().then(function() {
     stock_quantity:10
 
   }).then(function(response){
-    console.log(response);
+   
   });
 
   db.Product.create({
@@ -66,7 +66,7 @@ db.sequelize.sync().then(function() {
     stock_quantity:10
 
   }).then(function(response){
-    console.log(response);
+    
   });
 
   db.Product.create({
@@ -76,7 +76,7 @@ db.sequelize.sync().then(function() {
     stock_quantity:10
 
   }).then(function(response){
-    console.log(response);
+    
   });
 
   db.Product.create({
@@ -86,7 +86,7 @@ db.sequelize.sync().then(function() {
     stock_quantity:10
 
   }).then(function(response){
-    console.log(response);
+   
   });
 
   db.Product.create({
@@ -96,7 +96,7 @@ db.sequelize.sync().then(function() {
     stock_quantity:10
 
   }).then(function(response){
-    console.log(response);
+    
   });
 
   db.Product.create({
@@ -106,7 +106,7 @@ db.sequelize.sync().then(function() {
     stock_quantity:10
 
   }).then(function(response){
-    console.log(response);
+   
   });
 
   db.Product.create({
@@ -116,7 +116,7 @@ db.sequelize.sync().then(function() {
     stock_quantity:10
 
   }).then(function(response){
-    console.log(response);
+   
   });
 
   db.Product.create({
@@ -126,7 +126,7 @@ db.sequelize.sync().then(function() {
     stock_quantity:10
 
   }).then(function(response){
-    console.log(response);
+   
   });
 
 
