@@ -29,10 +29,10 @@ db.sequelize.sync().then(function() {
   console.log('Database is synced!');
 
   db.Product.create({
-    product_name:"Sainabou",
-    department_name:"Bartender",
-    price:"1000",
-    stock_quantity:1
+    product_name:"Brownie",
+    department_name:"Lipstick",
+    price:10,
+    stock_quantity:10
 
   }).then(function(response){
     console.log(response);
@@ -40,90 +40,90 @@ db.sequelize.sync().then(function() {
 
 
   db.Product.create({
-    product_name:"Ruth",
-    department_name:"Bartender",
-    price:"1000",
-    stock_quantity:1
+    product_name:"Naked",
+    department_name:"Lipstick",
+    price:10,
+    stock_quantity:10
 
   }).then(function(response){
     console.log(response);
   });
 
   db.Product.create({
-    product_name:"Ruth",
-    department_name:"Bartender",
-    price:"1000",
-    stock_quantity:1
+    product_name:"Bare",
+    department_name:"Lipstick",
+    price:10,
+    stock_quantity:10
 
   }).then(function(response){
     console.log(response);
   });
 
   db.Product.create({
-    product_name:"Ruth",
-    department_name:"Bartender",
-    price:"1000",
-    stock_quantity:1
+    product_name:"Nubie",
+    department_name:"Lipstick",
+    price:10,
+    stock_quantity:10
 
   }).then(function(response){
     console.log(response);
   });
 
   db.Product.create({
-    product_name:"Ruth",
-    department_name:"Bartender",
-    price:"1000",
-    stock_quantity:1
+    product_name:"choco",
+    department_name:"Lipstick",
+    price:10,
+    stock_quantity:10
 
   }).then(function(response){
     console.log(response);
   });
 
   db.Product.create({
-    product_name:"Ruth",
-    department_name:"Bartender",
-    price:"1000",
-    stock_quantity:1
+    product_name:"Drama Queen",
+    department_name:"Lashes",
+    price:10,
+    stock_quantity:10
 
   }).then(function(response){
     console.log(response);
   });
 
   db.Product.create({
-    product_name:"Ruth",
-    department_name:"Bartender",
-    price:"1000",
-    stock_quantity:1
+    product_name:"Falsies",
+    department_name:"Lashes",
+    price:10,
+    stock_quantity:10
 
   }).then(function(response){
     console.log(response);
   });
 
   db.Product.create({
-    product_name:"Ruth",
-    department_name:"Bartender",
-    price:"1000",
-    stock_quantity:1
+    product_name:"Flirty",
+    department_name:"Lashes",
+    price:10,
+    stock_quantity:10
 
   }).then(function(response){
     console.log(response);
   });
 
   db.Product.create({
-    product_name:"Ruth",
-    department_name:"Bartender",
-    price:"1000",
-    stock_quantity:1
+    product_name:"HER-Story",
+    department_name:"Lashes",
+    price:10,
+    stock_quantity:10
 
   }).then(function(response){
     console.log(response);
   });
 
   db.Product.create({
-    product_name:"Ruth",
-    department_name:"Bartender",
-    price:"1000",
-    stock_quantity:1
+    product_name:"Diva",
+    department_name:"Lashes",
+    price:10,
+    stock_quantity:10
 
   }).then(function(response){
     console.log(response);
