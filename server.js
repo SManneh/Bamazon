@@ -25,14 +25,16 @@ require('./routes/html-routes.js')(app);
 const db = require('./models');
 // Syncing our sequelize models 
 // =============================================================
-db.sequelize.sync().then(function() {
+db.sequelize.sync({}).then(function() {
   console.log('Database is synced!');
 
   db.Product.create({
+    image:"./images/cinnamon.jpg",
     product_name:"Brownie",
     department_name:"Lipstick",
-    price:10,
-    stock_quantity:10
+    price:10.99,
+    stock_quantity:10,
+    
 
   }).then(function(response){
     
@@ -40,9 +42,10 @@ db.sequelize.sync().then(function() {
 
 
   db.Product.create({
+    image:"./images/butter.jpg",
     product_name:"Naked",
     department_name:"Lipstick",
-    price:10,
+    price:10.99,
     stock_quantity:10
 
   }).then(function(response){
@@ -50,9 +53,10 @@ db.sequelize.sync().then(function() {
   });
 
   db.Product.create({
+    image:"./images/cinnamon.jpg",
     product_name:"Bare",
     department_name:"Lipstick",
-    price:10,
+    price:10.99,
     stock_quantity:10
 
   }).then(function(response){
@@ -60,9 +64,10 @@ db.sequelize.sync().then(function() {
   });
 
   db.Product.create({
+    image:"./images/lipstick.jpg",
     product_name:"Nubie",
     department_name:"Lipstick",
-    price:10,
+    price:10.99,
     stock_quantity:10
 
   }).then(function(response){
@@ -70,9 +75,10 @@ db.sequelize.sync().then(function() {
   });
 
   db.Product.create({
+    image:"./images/chocolate.jpg",
     product_name:"choco",
     department_name:"Lipstick",
-    price:10,
+    price:10.99,
     stock_quantity:10
 
   }).then(function(response){
@@ -80,9 +86,10 @@ db.sequelize.sync().then(function() {
   });
 
   db.Product.create({
+    image:"./images/drama-queen.jpg",
     product_name:"Drama Queen",
     department_name:"Lashes",
-    price:10,
+    price:10.99,
     stock_quantity:10
 
   }).then(function(response){
@@ -90,9 +97,10 @@ db.sequelize.sync().then(function() {
   });
 
   db.Product.create({
+    image:"./images/falsies.jpg",
     product_name:"Falsies",
     department_name:"Lashes",
-    price:10,
+    price:10.99,
     stock_quantity:10
 
   }).then(function(response){
@@ -100,9 +108,10 @@ db.sequelize.sync().then(function() {
   });
 
   db.Product.create({
+    image:"./images/flirty.jpg",
     product_name:"Flirty",
     department_name:"Lashes",
-    price:10,
+    price:10.99,
     stock_quantity:10
 
   }).then(function(response){
@@ -110,9 +119,10 @@ db.sequelize.sync().then(function() {
   });
 
   db.Product.create({
+    image:"./images/her-story.jpg",
     product_name:"HER-Story",
     department_name:"Lashes",
-    price:10,
+    price:10.99,
     stock_quantity:10
 
   }).then(function(response){
@@ -120,9 +130,10 @@ db.sequelize.sync().then(function() {
   });
 
   db.Product.create({
+    image:"./images/lashes.jpg",
     product_name:"Diva",
     department_name:"Lashes",
-    price:10,
+    price:10.99,
     stock_quantity:10
 
   }).then(function(response){

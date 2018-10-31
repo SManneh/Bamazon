@@ -31,10 +31,11 @@ module.exports = function(app) {
                 .then(function(data){
                     console.log(data, "data from update ");
                     res.send("Order Success");
+                    $('#order-status').text("Order Successful")
                 })
                
             }else {
-                res.send("Not Enough Quanity");
+                res.send("Out of Stock");
             }
             
         })
